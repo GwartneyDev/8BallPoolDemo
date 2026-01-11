@@ -1,0 +1,2457 @@
+fileFormatVersion: 2
+guid: c7c73726992884875b252970f1aefc22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 838716337997826229
+    second: SMS_Pool_Balls_No_Shadow_0
+  - first:
+      213: 5551970222093528019
+    second: SMS_Pool_Balls_No_Shadow_1
+  - first:
+      213: -5911882496628183303
+    second: SMS_Pool_Balls_No_Shadow_2
+  - first:
+      213: 7663887674248894553
+    second: SMS_Pool_Balls_No_Shadow_3
+  - first:
+      213: -8719888669190331692
+    second: SMS_Pool_Balls_No_Shadow_4
+  - first:
+      213: -1175957051935923434
+    second: SMS_Pool_Balls_No_Shadow_5
+  - first:
+      213: 2877956112862290004
+    second: SMS_Pool_Balls_No_Shadow_6
+  - first:
+      213: -6745987193738603678
+    second: SMS_Pool_Balls_No_Shadow_7
+  - first:
+      213: 6286775373203212
+    second: SMS_Pool_Balls_No_Shadow_8
+  - first:
+      213: -2640095889674448816
+    second: SMS_Pool_Balls_No_Shadow_9
+  - first:
+      213: -7532448472463023608
+    second: SMS_Pool_Balls_No_Shadow_10
+  - first:
+      213: -3047012348465869800
+    second: SMS_Pool_Balls_No_Shadow_11
+  - first:
+      213: -7383501381417325001
+    second: SMS_Pool_Balls_No_Shadow_12
+  - first:
+      213: 731733987763116570
+    second: SMS_Pool_Balls_No_Shadow_13
+  - first:
+      213: -1091962769759619905
+    second: SMS_Pool_Balls_No_Shadow_14
+  - first:
+      213: 1936722550081094456
+    second: SMS_Pool_Balls_No_Shadow_15
+  - first:
+      213: 1044614552777523886
+    second: SMS_Pool_Balls_No_Shadow_16
+  - first:
+      213: -535816913911687665
+    second: SMS_Pool_Balls_No_Shadow_17
+  - first:
+      213: -8537889390499389271
+    second: SMS_Pool_Balls_No_Shadow_18
+  - first:
+      213: -8002752098211840723
+    second: SMS_Pool_Balls_No_Shadow_19
+  - first:
+      213: -6381882145233330776
+    second: SMS_Pool_Balls_No_Shadow_20
+  - first:
+      213: 2834464200573529695
+    second: SMS_Pool_Balls_No_Shadow_21
+  - first:
+      213: -7627070952991936060
+    second: SMS_Pool_Balls_No_Shadow_22
+  - first:
+      213: -105567733691637219
+    second: SMS_Pool_Balls_No_Shadow_23
+  - first:
+      213: 8861025713332933885
+    second: SMS_Pool_Balls_No_Shadow_24
+  - first:
+      213: -8919275108090083794
+    second: SMS_Pool_Balls_No_Shadow_25
+  - first:
+      213: -4913507048088112542
+    second: SMS_Pool_Balls_No_Shadow_26
+  - first:
+      213: -3883910392975976927
+    second: SMS_Pool_Balls_No_Shadow_27
+  - first:
+      213: -1894545785428529700
+    second: SMS_Pool_Balls_No_Shadow_28
+  - first:
+      213: 3076457346228922217
+    second: SMS_Pool_Balls_No_Shadow_29
+  - first:
+      213: -7289102852925579499
+    second: SMS_Pool_Balls_No_Shadow_30
+  - first:
+      213: -2259570544836822324
+    second: SMS_Pool_Balls_No_Shadow_31
+  - first:
+      213: -9066137166601645962
+    second: SMS_Pool_Balls_No_Shadow_32
+  - first:
+      213: 8366934954756634788
+    second: SMS_Pool_Balls_No_Shadow_33
+  - first:
+      213: 1074609908836104184
+    second: SMS_Pool_Balls_No_Shadow_34
+  - first:
+      213: -344789191609288729
+    second: SMS_Pool_Balls_No_Shadow_35
+  - first:
+      213: 1696125726187132413
+    second: SMS_Pool_Balls_No_Shadow_36
+  - first:
+      213: 2233691290070200449
+    second: SMS_Pool_Balls_No_Shadow_37
+  - first:
+      213: 4715384026152910600
+    second: SMS_Pool_Balls_No_Shadow_38
+  - first:
+      213: 2200645253102068288
+    second: SMS_Pool_Balls_No_Shadow_39
+  - first:
+      213: -4690569375399116186
+    second: SMS_Pool_Balls_No_Shadow_40
+  - first:
+      213: -5964467425673220885
+    second: SMS_Pool_Balls_No_Shadow_41
+  - first:
+      213: 5684309363410100929
+    second: SMS_Pool_Balls_No_Shadow_42
+  - first:
+      213: 545745251821685982
+    second: SMS_Pool_Balls_No_Shadow_43
+  - first:
+      213: -1687607419968606438
+    second: SMS_Pool_Balls_No_Shadow_44
+  - first:
+      213: 6543948512217966481
+    second: SMS_Pool_Balls_No_Shadow_45
+  - first:
+      213: -4441503438212965878
+    second: SMS_Pool_Balls_No_Shadow_46
+  - first:
+      213: 1153848430338654104
+    second: SMS_Pool_Balls_No_Shadow_47
+  - first:
+      213: 3912266560039518371
+    second: SMS_Pool_Balls_No_Shadow_48
+  - first:
+      213: 7559225011532456754
+    second: SMS_Pool_Balls_No_Shadow_49
+  - first:
+      213: -3738333796746153763
+    second: SMS_Pool_Balls_No_Shadow_50
+  - first:
+      213: -2506491862576910559
+    second: SMS_Pool_Balls_No_Shadow_51
+  - first:
+      213: 730660686020168585
+    second: SMS_Pool_Balls_No_Shadow_52
+  - first:
+      213: -5463735644959522063
+    second: SMS_Pool_Balls_No_Shadow_53
+  - first:
+      213: -8718811780627127356
+    second: SMS_Pool_Balls_No_Shadow_54
+  - first:
+      213: 8182902801854711168
+    second: SMS_Pool_Balls_No_Shadow_55
+  - first:
+      213: 606806474300443408
+    second: SMS_Pool_Balls_No_Shadow_56
+  - first:
+      213: 5768248395441784233
+    second: SMS_Pool_Balls_No_Shadow_57
+  - first:
+      213: 3662467188596280861
+    second: SMS_Pool_Balls_No_Shadow_58
+  - first:
+      213: -8389568860477762571
+    second: SMS_Pool_Balls_No_Shadow_59
+  - first:
+      213: 2694792247522149417
+    second: SMS_Pool_Balls_No_Shadow_60
+  - first:
+      213: -1423463297429067759
+    second: SMS_Pool_Balls_No_Shadow_61
+  - first:
+      213: -241255441020091398
+    second: SMS_Pool_Balls_No_Shadow_62
+  - first:
+      213: 4955715336188953899
+    second: SMS_Pool_Balls_No_Shadow_63
+  - first:
+      213: -8085920948158075403
+    second: SMS_Pool_Balls_No_Shadow_64
+  - first:
+      213: -6979631245062078962
+    second: SMS_Pool_Balls_No_Shadow_65
+  - first:
+      213: -8046740190590691583
+    second: SMS_Pool_Balls_No_Shadow_66
+  - first:
+      213: 2610196555680552093
+    second: SMS_Pool_Balls_No_Shadow_67
+  - first:
+      213: 1262982339469543353
+    second: SMS_Pool_Balls_No_Shadow_68
+  - first:
+      213: 1509274965309786824
+    second: SMS_Pool_Balls_No_Shadow_69
+  - first:
+      213: -8404182813726909510
+    second: SMS_Pool_Balls_No_Shadow_70
+  - first:
+      213: 3277169757358069165
+    second: SMS_Pool_Balls_No_Shadow_71
+  - first:
+      213: 6470159346451895606
+    second: SMS_Pool_Balls_No_Shadow_72
+  - first:
+      213: -4738124824845872204
+    second: SMS_Pool_Balls_No_Shadow_73
+  - first:
+      213: 6995830463639176419
+    second: SMS_Pool_Balls_No_Shadow_74
+  - first:
+      213: 2352128849409124836
+    second: SMS_Pool_Balls_No_Shadow_75
+  - first:
+      213: 8844965226136185690
+    second: SMS_Pool_Balls_No_Shadow_76
+  - first:
+      213: 7087900090020740330
+    second: SMS_Pool_Balls_No_Shadow_77
+  - first:
+      213: -8527072734324140443
+    second: SMS_Pool_Balls_No_Shadow_78
+  - first:
+      213: -4061428645914223624
+    second: SMS_Pool_Balls_No_Shadow_79
+  - first:
+      213: 5617209250601904898
+    second: SMS_Pool_Balls_No_Shadow_80
+  - first:
+      213: 4300400174527669254
+    second: SMS_Pool_Balls_No_Shadow_81
+  - first:
+      213: 8295378686365502335
+    second: SMS_Pool_Balls_No_Shadow_82
+  - first:
+      213: -6674588805943092839
+    second: SMS_Pool_Balls_No_Shadow_83
+  - first:
+      213: 299388363916343588
+    second: SMS_Pool_Balls_No_Shadow_84
+  - first:
+      213: 8776847338890211799
+    second: SMS_Pool_Balls_No_Shadow_85
+  - first:
+      213: 1994438020658059531
+    second: SMS_Pool_Balls_No_Shadow_86
+  - first:
+      213: 8448505023024303378
+    second: SMS_Pool_Balls_No_Shadow_87
+  - first:
+      213: -847394729267194733
+    second: SMS_Pool_Balls_No_Shadow_88
+  - first:
+      213: 1239291712031749565
+    second: SMS_Pool_Balls_No_Shadow_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.43309656, y: 0.5780544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b84da1d018b3ab00800000000000000
+      internalID: 838716337997826229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db6e6b508f8c0d40800000000000000
+      internalID: 5551970222093528019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 72
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fea0aa1136c4fda0800000000000000
+      internalID: -5911882496628183303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95899161c399b5a60800000000000000
+      internalID: 7663887674248894553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 72
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2e4ff847bbcf680800000000000000
+      internalID: -8719888669190331692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6136e30ba492eafe0800000000000000
+      internalID: -1175957051935923434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 72
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450225a26dd80f720800000000000000
+      internalID: 2877956112862290004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26350e993607162a0800000000000000
+      internalID: -6745987193738603678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 72
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0.49999958, y: 0.6078749}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0707e4f9c5561000800000000000000
+      internalID: 6286775373203212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_9
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 64
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0505cf2b6ce7c5bd0800000000000000
+      internalID: -2640095889674448816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80268edd50e577790800000000000000
+      internalID: -7532448472463023608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c867fa966d6b5d0800000000000000
+      internalID: -3047012348465869800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ea302fc98888990800000000000000
+      internalID: -7383501381417325001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a53ba5f24a72a00800000000000000
+      internalID: 731733987763116570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4b68875a198d0f0800000000000000
+      internalID: -1091962769759619905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833821ae5ee90ea10800000000000000
+      internalID: 1936722550081094456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea20281b6673f7e00800000000000000
+      internalID: 1044614552777523886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06d5ad0b556098f0800000000000000
+      internalID: -535816913911687665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a025b3c5d2538980800000000000000
+      internalID: -8537889390499389271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d3298fd5380f090800000000000000
+      internalID: -8002752098211840723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad95f660000f67a0800000000000000
+      internalID: -6381882145233330776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e2fbb3c2a065720800000000000000
+      internalID: 2834464200573529695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13732d063372690800000000000000
+      internalID: -7627070952991936060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_23
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12219d94b2f88ef0800000000000000
+      internalID: -105567733691637219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4dfc440ffa8fa70800000000000000
+      internalID: 8861025713332933885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e268e48ab8e583480800000000000000
+      internalID: -8919275108090083794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_26
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26274556f57bfcbb0800000000000000
+      internalID: -4913507048088112542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126183f4314991ac0800000000000000
+      internalID: -3883910392975976927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_28
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdda1d855a835b5e0800000000000000
+      internalID: -1894545785428529700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_29
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967ad9818a5c1ba20800000000000000
+      internalID: 3076457346228922217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f95181397e7da90800000000000000
+      internalID: -7289102852925579499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccab01aaf8464a0e0800000000000000
+      internalID: -2259570544836822324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6701ebb084c9e2280800000000000000
+      internalID: -9066137166601645962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8711de2035d1470800000000000000
+      internalID: 8366934954756634788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f77a40c408c9ee00800000000000000
+      internalID: 1074609908836104184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_35
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7fbb79e00173bf0800000000000000
+      internalID: -344789191609288729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df519cb8c59d98710800000000000000
+      internalID: 1696125726187132413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180b48ac46aaffe10800000000000000
+      internalID: 2233691290070200449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_38
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f3562e9c8607140800000000000000
+      internalID: 4715384026152910600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0426ccbb2334a8e10800000000000000
+      internalID: 2200645253102068288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_40
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66282093100c7eeb0800000000000000
+      internalID: -4690569375399116186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_41
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beceb5a3a74f93da0800000000000000
+      internalID: -5964467425673220885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c26c7fcf39b2ee40800000000000000
+      internalID: 5684309363410100929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_43
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc00b04a60e29700800000000000000
+      internalID: 545745251821685982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f257c2ef96498e0800000000000000
+      internalID: -1687607419968606438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197a2332086c0da50800000000000000
+      internalID: 6543948512217966481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ad3a0b72c9c52c0800000000000000
+      internalID: -4441503438212965878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_47
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f3af6b80b430010800000000000000
+      internalID: 1153848430338654104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_48
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 40
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a08bc155b92b4630800000000000000
+      internalID: 3912266560039518371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_49
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233e3a5f813c7e860800000000000000
+      internalID: 7559225011532456754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0bb19e735ce1cc0800000000000000
+      internalID: -3738333796746153763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f22b25ee6273dd0800000000000000
+      internalID: -2506491862576910559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_52
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b4391d504d32a00800000000000000
+      internalID: 730660686020168585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f24c870169ec24b0800000000000000
+      internalID: -5463735644959522063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3aa3831ee800780800000000000000
+      internalID: -8718811780627127356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_55
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08549105eb28f8170800000000000000
+      internalID: 8182902801854711168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_56
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bc51cf54fcb6800800000000000000
+      internalID: 606806474300443408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_57
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5468aaa5fec0050800000000000000
+      internalID: 5768248395441784233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_58
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e0ec1e082b3d230800000000000000
+      internalID: 3662467188596280861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_59
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f35b8c3293429b80800000000000000
+      internalID: -8389568860477762571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_60
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924c8018543d56520800000000000000
+      internalID: 2694792247522149417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1182fed3ca7de3ce0800000000000000
+      internalID: -1423463297429067759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_62
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af30ed16473e6acf0800000000000000
+      internalID: -241255441020091398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_63
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b258f7d77dc36c440800000000000000
+      internalID: 4955715336188953899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_64
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fde52b1db909cf80800000000000000
+      internalID: -8085920948158075403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_65
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e7bdebc5e532f90800000000000000
+      internalID: -6979631245062078962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_66
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1079bfb1e6c345090800000000000000
+      internalID: -8046740190590691583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_67
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94994f10f7493420800000000000000
+      internalID: 2610196555680552093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_68
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b78ca50fb3078110800000000000000
+      internalID: 1262982339469543353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_69
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 16
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca0eaf959502f410800000000000000
+      internalID: 1509274965309786824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb5d5812485e5b80800000000000000
+      internalID: -8404182813726909510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da51bf7f788da7d20800000000000000
+      internalID: 3277169757358069165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635507d25af9ac950800000000000000
+      internalID: 6470159346451895606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_73
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b31a91539cce3eb0800000000000000
+      internalID: -4738124824845872204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4c11ebdbe261160800000000000000
+      internalID: 6995830463639176419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_75
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9aaf6f9b074a020800000000000000
+      internalID: 2352128849409124836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_76
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ba782b201afba70800000000000000
+      internalID: 8844965226136185690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_77
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec352d14974d5260800000000000000
+      internalID: 7087900090020740330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_78
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566d0b8c680c9a980800000000000000
+      internalID: -8527072734324140443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_79
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbdfa73a28e2a7c0800000000000000
+      internalID: -4061428645914223624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_80
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b2a2b5d0654fd40800000000000000
+      internalID: 5617209250601904898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_81
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604efba9c271eab30800000000000000
+      internalID: 4300400174527669254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_82
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8926e6fa1f1370800000000000000
+      internalID: 8295378686365502335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_83
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99996ff28d81f53a0800000000000000
+      internalID: -6674588805943092839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_84
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4297e197124a72400800000000000000
+      internalID: 299388363916343588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_85
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1326a2720adc970800000000000000
+      internalID: 8776847338890211799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_86
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b095bd310daadab10800000000000000
+      internalID: 1994438020658059531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_87
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d877c6e8e1f3570800000000000000
+      internalID: 8448505023024303378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_88
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3949d71cbf27d34f0800000000000000
+      internalID: -847394729267194733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_Pool_Balls_No_Shadow_89
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5fcbcfe39d23110800000000000000
+      internalID: 1239291712031749565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e1acdb8dbaf204836ab858aaafdca1d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SMS_Pool_Balls_No_Shadow_0: 838716337997826229
+      SMS_Pool_Balls_No_Shadow_1: 5551970222093528019
+      SMS_Pool_Balls_No_Shadow_10: -7532448472463023608
+      SMS_Pool_Balls_No_Shadow_11: -3047012348465869800
+      SMS_Pool_Balls_No_Shadow_12: -7383501381417325001
+      SMS_Pool_Balls_No_Shadow_13: 731733987763116570
+      SMS_Pool_Balls_No_Shadow_14: -1091962769759619905
+      SMS_Pool_Balls_No_Shadow_15: 1936722550081094456
+      SMS_Pool_Balls_No_Shadow_16: 1044614552777523886
+      SMS_Pool_Balls_No_Shadow_17: -535816913911687665
+      SMS_Pool_Balls_No_Shadow_18: -8537889390499389271
+      SMS_Pool_Balls_No_Shadow_19: -8002752098211840723
+      SMS_Pool_Balls_No_Shadow_2: -5911882496628183303
+      SMS_Pool_Balls_No_Shadow_20: -6381882145233330776
+      SMS_Pool_Balls_No_Shadow_21: 2834464200573529695
+      SMS_Pool_Balls_No_Shadow_22: -7627070952991936060
+      SMS_Pool_Balls_No_Shadow_23: -105567733691637219
+      SMS_Pool_Balls_No_Shadow_24: 8861025713332933885
+      SMS_Pool_Balls_No_Shadow_25: -8919275108090083794
+      SMS_Pool_Balls_No_Shadow_26: -4913507048088112542
+      SMS_Pool_Balls_No_Shadow_27: -3883910392975976927
+      SMS_Pool_Balls_No_Shadow_28: -1894545785428529700
+      SMS_Pool_Balls_No_Shadow_29: 3076457346228922217
+      SMS_Pool_Balls_No_Shadow_3: 7663887674248894553
+      SMS_Pool_Balls_No_Shadow_30: -7289102852925579499
+      SMS_Pool_Balls_No_Shadow_31: -2259570544836822324
+      SMS_Pool_Balls_No_Shadow_32: -9066137166601645962
+      SMS_Pool_Balls_No_Shadow_33: 8366934954756634788
+      SMS_Pool_Balls_No_Shadow_34: 1074609908836104184
+      SMS_Pool_Balls_No_Shadow_35: -344789191609288729
+      SMS_Pool_Balls_No_Shadow_36: 1696125726187132413
+      SMS_Pool_Balls_No_Shadow_37: 2233691290070200449
+      SMS_Pool_Balls_No_Shadow_38: 4715384026152910600
+      SMS_Pool_Balls_No_Shadow_39: 2200645253102068288
+      SMS_Pool_Balls_No_Shadow_4: -8719888669190331692
+      SMS_Pool_Balls_No_Shadow_40: -4690569375399116186
+      SMS_Pool_Balls_No_Shadow_41: -5964467425673220885
+      SMS_Pool_Balls_No_Shadow_42: 5684309363410100929
+      SMS_Pool_Balls_No_Shadow_43: 545745251821685982
+      SMS_Pool_Balls_No_Shadow_44: -1687607419968606438
+      SMS_Pool_Balls_No_Shadow_45: 6543948512217966481
+      SMS_Pool_Balls_No_Shadow_46: -4441503438212965878
+      SMS_Pool_Balls_No_Shadow_47: 1153848430338654104
+      SMS_Pool_Balls_No_Shadow_48: 3912266560039518371
+      SMS_Pool_Balls_No_Shadow_49: 7559225011532456754
+      SMS_Pool_Balls_No_Shadow_5: -1175957051935923434
+      SMS_Pool_Balls_No_Shadow_50: -3738333796746153763
+      SMS_Pool_Balls_No_Shadow_51: -2506491862576910559
+      SMS_Pool_Balls_No_Shadow_52: 730660686020168585
+      SMS_Pool_Balls_No_Shadow_53: -5463735644959522063
+      SMS_Pool_Balls_No_Shadow_54: -8718811780627127356
+      SMS_Pool_Balls_No_Shadow_55: 8182902801854711168
+      SMS_Pool_Balls_No_Shadow_56: 606806474300443408
+      SMS_Pool_Balls_No_Shadow_57: 5768248395441784233
+      SMS_Pool_Balls_No_Shadow_58: 3662467188596280861
+      SMS_Pool_Balls_No_Shadow_59: -8389568860477762571
+      SMS_Pool_Balls_No_Shadow_6: 2877956112862290004
+      SMS_Pool_Balls_No_Shadow_60: 2694792247522149417
+      SMS_Pool_Balls_No_Shadow_61: -1423463297429067759
+      SMS_Pool_Balls_No_Shadow_62: -241255441020091398
+      SMS_Pool_Balls_No_Shadow_63: 4955715336188953899
+      SMS_Pool_Balls_No_Shadow_64: -8085920948158075403
+      SMS_Pool_Balls_No_Shadow_65: -6979631245062078962
+      SMS_Pool_Balls_No_Shadow_66: -8046740190590691583
+      SMS_Pool_Balls_No_Shadow_67: 2610196555680552093
+      SMS_Pool_Balls_No_Shadow_68: 1262982339469543353
+      SMS_Pool_Balls_No_Shadow_69: 1509274965309786824
+      SMS_Pool_Balls_No_Shadow_7: -6745987193738603678
+      SMS_Pool_Balls_No_Shadow_70: -8404182813726909510
+      SMS_Pool_Balls_No_Shadow_71: 3277169757358069165
+      SMS_Pool_Balls_No_Shadow_72: 6470159346451895606
+      SMS_Pool_Balls_No_Shadow_73: -4738124824845872204
+      SMS_Pool_Balls_No_Shadow_74: 6995830463639176419
+      SMS_Pool_Balls_No_Shadow_75: 2352128849409124836
+      SMS_Pool_Balls_No_Shadow_76: 8844965226136185690
+      SMS_Pool_Balls_No_Shadow_77: 7087900090020740330
+      SMS_Pool_Balls_No_Shadow_78: -8527072734324140443
+      SMS_Pool_Balls_No_Shadow_79: -4061428645914223624
+      SMS_Pool_Balls_No_Shadow_8: 6286775373203212
+      SMS_Pool_Balls_No_Shadow_80: 5617209250601904898
+      SMS_Pool_Balls_No_Shadow_81: 4300400174527669254
+      SMS_Pool_Balls_No_Shadow_82: 8295378686365502335
+      SMS_Pool_Balls_No_Shadow_83: -6674588805943092839
+      SMS_Pool_Balls_No_Shadow_84: 299388363916343588
+      SMS_Pool_Balls_No_Shadow_85: 8776847338890211799
+      SMS_Pool_Balls_No_Shadow_86: 1994438020658059531
+      SMS_Pool_Balls_No_Shadow_87: 8448505023024303378
+      SMS_Pool_Balls_No_Shadow_88: -847394729267194733
+      SMS_Pool_Balls_No_Shadow_89: 1239291712031749565
+      SMS_Pool_Balls_No_Shadow_9: -2640095889674448816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

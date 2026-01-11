@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 405f3afebb18d49f0b7f7285cac0ba42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -665628589361367022
+    second: SMS_GUI_Display_NO_BG_0
+  - first:
+      213: 4926342677712943986
+    second: SMS_GUI_Display_NO_BG_1
+  - first:
+      213: -8656317639564395604
+    second: SMS_GUI_Display_NO_BG_2
+  - first:
+      213: 7835444038136152341
+    second: SMS_GUI_Display_NO_BG_3
+  - first:
+      213: -5886951685554791757
+    second: SMS_GUI_Display_NO_BG_4
+  - first:
+      213: -1583982690097996354
+    second: SMS_GUI_Display_NO_BG_5
+  - first:
+      213: 687922770104717355
+    second: SMS_GUI_Display_NO_BG_6
+  - first:
+      213: 4467369737490896564
+    second: SMS_GUI_Display_NO_BG_7
+  - first:
+      213: 1415475273983436220
+    second: SMS_GUI_Display_NO_BG_8
+  - first:
+      213: -4253968021810353080
+    second: SMS_GUI_Display_NO_BG_9
+  - first:
+      213: -1198289204557262076
+    second: SMS_GUI_Display_NO_BG_10
+  - first:
+      213: -302924293844040830
+    second: SMS_GUI_Display_NO_BG_11
+  - first:
+      213: 6519616609651831536
+    second: SMS_GUI_Display_NO_BG_12
+  - first:
+      213: 3587602902423842117
+    second: SMS_GUI_Display_NO_BG_13
+  - first:
+      213: 9006586080266218818
+    second: SMS_GUI_Display_NO_BG_14
+  - first:
+      213: 5126269724854827856
+    second: SMS_GUI_Display_NO_BG_15
+  - first:
+      213: 3421770204057831323
+    second: SMS_GUI_Display_NO_BG_16
+  - first:
+      213: -6747349669774854010
+    second: SMS_GUI_Display_NO_BG_17
+  - first:
+      213: 7813821347715154734
+    second: SMS_GUI_Display_NO_BG_18
+  - first:
+      213: 2512731801176819434
+    second: SMS_GUI_Display_NO_BG_19
+  - first:
+      213: -3238749704855499684
+    second: SMS_GUI_Display_NO_BG_20
+  - first:
+      213: -8049813147283758827
+    second: SMS_GUI_Display_NO_BG_21
+  - first:
+      213: 1090587566795417069
+    second: SMS_GUI_Display_NO_BG_22
+  - first:
+      213: -1337838893968707921
+    second: SMS_GUI_Display_NO_BG_23
+  - first:
+      213: -4341727726667598494
+    second: SMS_GUI_Display_NO_BG_24
+  - first:
+      213: -7622951245612342921
+    second: SMS_GUI_Display_NO_BG_25
+  - first:
+      213: 1108900277357575355
+    second: SMS_GUI_Display_NO_BG_26
+  - first:
+      213: -3854114107800029718
+    second: SMS_GUI_Display_NO_BG_27
+  - first:
+      213: 5507898200433415315
+    second: SMS_GUI_Display_NO_BG_28
+  - first:
+      213: -7508627665161513714
+    second: SMS_GUI_Display_NO_BG_29
+  - first:
+      213: -2698214802768992282
+    second: SMS_GUI_Display_NO_BG_30
+  - first:
+      213: -7878262479898546837
+    second: SMS_GUI_Display_NO_BG_31
+  - first:
+      213: 9036409866072272473
+    second: SMS_GUI_Display_NO_BG_32
+  - first:
+      213: -4189601265717720347
+    second: SMS_GUI_Display_NO_BG_33
+  - first:
+      213: 1637173784584964013
+    second: SMS_GUI_Display_NO_BG_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21875ca135633c6f0800000000000000
+      internalID: -665628589361367022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b3de28092ed5440800000000000000
+      internalID: 4926342677712943986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabf0de48f49ed780800000000000000
+      internalID: -8656317639564395604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511ce86b6d61dbc60800000000000000
+      internalID: 7835444038136152341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba9e94e1a85d4ea0800000000000000
+      internalID: -5886951685554791757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd575ab220940ae0800000000000000
+      internalID: -1583982690097996354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b209ef85d1efb8900800000000000000
+      internalID: 687922770104717355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6997b6b194ffd30800000000000000
+      internalID: 4467369737490896564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5a12e1347c4a310800000000000000
+      internalID: 1415475273983436220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 9
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c6f166f9ed6f4c0800000000000000
+      internalID: -4253968021810353080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 16
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403dd283152de5fe0800000000000000
+      internalID: -1198289204557262076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 25
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 8, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283079fa5fbcbcbf0800000000000000
+      internalID: -302924293844040830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2b80a93c45a7a50800000000000000
+      internalID: 6519616609651831536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d2222f4d9b9c130800000000000000
+      internalID: 3587602902423842117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_14
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 7
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dee313252ddfc70800000000000000
+      internalID: 9006586080266218818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bbfc4972b242740800000000000000
+      internalID: 5126269724854827856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9702eb0fd19c7f20800000000000000
+      internalID: 3421770204057831323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68878bd69399c52a0800000000000000
+      internalID: -6747349669774854010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e230de8cd15407c60800000000000000
+      internalID: 7813821347715154734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6c8f892440fd220800000000000000
+      internalID: 2512731801176819434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ccfa59d46ad03d0800000000000000
+      internalID: -3238749704855499684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511e1ef9791594090800000000000000
+      internalID: -8049813147283758827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de56c432d9b822f00800000000000000
+      internalID: 1090587566795417069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae2b463d9a0f6de0800000000000000
+      internalID: -1337838893968707921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2657384d2a51fb3c0800000000000000
+      internalID: -4341727726667598494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_25
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 9
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771a721fa36d53690800000000000000
+      internalID: -7622951245612342921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 6
+        height: 30
+      alignment: 9
+      pivot: {x: 1.0325937, y: 0.5540313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcfa335dea936f00800000000000000
+      internalID: 1108900277357575355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 6}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5f1c093af638ac0800000000000000
+      internalID: -3854114107800029718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394d8df2b3cff6c40800000000000000
+      internalID: 5507898200433415315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e059063cbeefbc790800000000000000
+      internalID: -7508627665161513714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_30
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 18
+        width: 4
+        height: 1
+      alignment: 9
+      pivot: {x: -2.2535667, y: 12.546856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f8fe00377dc4c03a77383a6cb9c3e1
+      internalID: -2698214802768992282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09b164aeda804e79a5211dc45e9e26a
+      internalID: 9036409866072272473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_33
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b4bab7978004f758330eb98b25188a
+      internalID: -4189601265717720347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMS_GUI_Display_NO_BG_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 9
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf10fdd77ae048b59cd1270d4def429
+      internalID: -7878262479898546837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 701bb6f31268043db8ba9fdb140bb3d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SMS_GUI_Display_NO_BG_0: -665628589361367022
+      SMS_GUI_Display_NO_BG_1: 4926342677712943986
+      SMS_GUI_Display_NO_BG_10: -1198289204557262076
+      SMS_GUI_Display_NO_BG_11: -302924293844040830
+      SMS_GUI_Display_NO_BG_12: 6519616609651831536
+      SMS_GUI_Display_NO_BG_13: 3587602902423842117
+      SMS_GUI_Display_NO_BG_14: 9006586080266218818
+      SMS_GUI_Display_NO_BG_15: 5126269724854827856
+      SMS_GUI_Display_NO_BG_16: 3421770204057831323
+      SMS_GUI_Display_NO_BG_17: -6747349669774854010
+      SMS_GUI_Display_NO_BG_18: 7813821347715154734
+      SMS_GUI_Display_NO_BG_19: 2512731801176819434
+      SMS_GUI_Display_NO_BG_2: -8656317639564395604
+      SMS_GUI_Display_NO_BG_20: -3238749704855499684
+      SMS_GUI_Display_NO_BG_21: -8049813147283758827
+      SMS_GUI_Display_NO_BG_22: 1090587566795417069
+      SMS_GUI_Display_NO_BG_23: -1337838893968707921
+      SMS_GUI_Display_NO_BG_24: -4341727726667598494
+      SMS_GUI_Display_NO_BG_25: -7622951245612342921
+      SMS_GUI_Display_NO_BG_26: 1108900277357575355
+      SMS_GUI_Display_NO_BG_27: -3854114107800029718
+      SMS_GUI_Display_NO_BG_28: 5507898200433415315
+      SMS_GUI_Display_NO_BG_29: -7508627665161513714
+      SMS_GUI_Display_NO_BG_3: 7835444038136152341
+      SMS_GUI_Display_NO_BG_30: -2698214802768992282
+      SMS_GUI_Display_NO_BG_31: -7878262479898546837
+      SMS_GUI_Display_NO_BG_32: 9036409866072272473
+      SMS_GUI_Display_NO_BG_33: -4189601265717720347
+      SMS_GUI_Display_NO_BG_4: -5886951685554791757
+      SMS_GUI_Display_NO_BG_5: -1583982690097996354
+      SMS_GUI_Display_NO_BG_6: 687922770104717355
+      SMS_GUI_Display_NO_BG_7: 4467369737490896564
+      SMS_GUI_Display_NO_BG_8: 1415475273983436220
+      SMS_GUI_Display_NO_BG_9: -4253968021810353080
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
