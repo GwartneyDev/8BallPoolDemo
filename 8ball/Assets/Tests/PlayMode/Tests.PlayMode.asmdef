@@ -1,0 +1,22 @@
+{
+  "name": "Tests.PlayMode",
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "references": [
+    "Assembly-CSharp"
+  ],
+  "includePlatforms": [
+    "Editor",
+    "macOSStandalone",
+    "WindowsStandalone64"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
