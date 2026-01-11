@@ -664,7 +664,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5953ec51ff45f45138fbb80d5d3f3d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PoolQue: {fileID: 1287275647}
+  whiteBall: {fileID: 0}
+  distanceFromBall: 150
+  lineLength: 2000
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  reflectedObject: {fileID: 0}
+  raycastOriginPoint: {fileID: 0}
 --- !u!1 &1331609956
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,7 +887,7 @@ GameObject:
   - component: {fileID: 1491187701}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
