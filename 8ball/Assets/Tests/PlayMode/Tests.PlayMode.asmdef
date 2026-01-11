@@ -4,7 +4,7 @@
     "TestAssemblies"
   ],
   "references": [
-    "Assembly-CSharp"
+    "Scripts"
   ],
   "includePlatforms": [
     "Editor",
