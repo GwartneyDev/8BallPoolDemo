@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class rotateQue : MonoBehaviour
@@ -6,165 +5,148 @@ public class rotateQue : MonoBehaviour
     [Header("Settings")]
     public Transform whiteBall;
     public LayerMask collisionLayers;
-
-    [Header("Spring & Strike Settings")]
-   
-    public float maxPullDistance = 10f; 
+    public float maxPullDistance = 5f; 
+    public float forceMultiplier = 20f; 
 
     [Header("References")]
     public Transform raycastOriginPoint; 
     private LineRenderer lr;
+    private Rigidbody2D whiteBallRb;
 
-    private Vector3 initialMousePos;
-    private Vector3 cueStartPos;
     private float currentPullDistance = 0f;
     private Vector3 currentPullDir = Vector3.zero;
-    
-    // ERROR FIX: Variable name must match capitalization used in Update (isPulling)
     private bool isPulling = false; 
 
     void Start()
     {
         Cursor.visible = false;
         lr = GetComponent<LineRenderer>();
+        if (whiteBall != null) whiteBallRb = whiteBall.GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-
-
         if (whiteBall == null) return;
 
-        bool isBallMoving = whiteBall.GetComponent<Rigidbody2D>().linearVelocity.magnitude > 0.1f; 
+        // Check if ball is moving
+        bool isBallMoving = whiteBallRb.linearVelocity.magnitude > 0.1f; 
 
-        if (isBallMoving) 
-        {
-           
-            gameObject.SetActive(false); 
-            return;
-        }
-        else
-        {
-            gameObject.SetActive(true); 
-        }
+        // Instead of SetActive(false), we just disable the visual renderer 
+        // so the script keeps running to check if the ball stopped.
+        ToggleVisuals(!isBallMoving);
 
+        if (isBallMoving) return;
+
+        // INPUT HANDLING
         if (Input.GetMouseButtonDown(0))
         {
             isPulling = true;
-            initialMousePos = Input.mousePosition;
-            cueStartPos = transform.position; 
         }
 
         if (isPulling)
         {
             HandleSpringPull();
+            if (Input.GetMouseButtonUp(0))
+            {
+                ApplyBallForce();
+                isPulling = false;
+            }
         }
         else
-        {  
-          
-             ApplyBallForce();
-           
+        {
+            RotateQueStick(); // Only rotate when NOT pulling
         }
 
-        RotateQueStick(); 
         DrawAimLine();
     }
 
     private void HandleSpringPull()
     {
-          Vector3 mouseworldPos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Mathf.Abs(Camera.main.transform.position.z)));
-          Vector3 pullVector = mouseworldPos - whiteBall.position;
-          currentPullDistance = Mathf.Min(pullVector.magnitude, maxPullDistance);
-          currentPullDir = pullVector.normalized;
-          Vector3 targetPos = whiteBall.position + (currentPullDir * -currentPullDistance);
-          transform.position = new Vector3(targetPos.x, targetPos.y, 0);
-          transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(currentPullDir.y, currentPullDir.x) * Mathf.Rad2Deg);
+        Vector3 mouseWorldPos = GetMouseWorldPos();
+        
+        // We calculate direction FROM the ball TO the mouse
+        Vector3 pullVector = mouseWorldPos - whiteBall.position;
+        
+        // Clamp the distance
+        currentPullDistance = Mathf.Min(pullVector.magnitude, maxPullDistance);
+        currentPullDir = -pullVector.normalized; // Direction to shoot is opposite of pull
 
+        // Position the cue: Ball position + (Inverse of shoot direction * distance)
+        Vector3 targetPos = whiteBall.position + (pullVector.normalized * currentPullDistance);
+        transform.position = new Vector3(targetPos.x, targetPos.y, 0);
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            isPulling = false;
-            //ApplyBallForce();
-            transform.position = cueStartPos;
-        }
+        // Rotate to face the ball
+        float angle = Mathf.Atan2(pullVector.y, pullVector.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     void RotateQueStick()
     {
-        Vector3 mouseScreenPos = Input.mousePosition;
-        mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z); 
-
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
+        Vector3 mouseWorldPos = GetMouseWorldPos();
+        Vector3 dir = mouseWorldPos - whiteBall.position;
         
-        Vector3 fullDir = mouseWorldPos - whiteBall.position;
-        float mouseDistance = fullDir.magnitude;
+        float mouseDistance = dir.magnitude;
         if (mouseDistance < 0.1f) return;
 
-        Vector3 dirNormalized = fullDir.normalized;
+        // Visual gap between cue and ball
         float dynamicGap = Mathf.Clamp(mouseDistance, 0.5f, 1.5f); 
 
-        Vector3 targetPos = whiteBall.position + (dirNormalized * -dynamicGap);
+        Vector3 targetPos = whiteBall.position + (dir.normalized * dynamicGap);
         transform.position = new Vector3(targetPos.x, targetPos.y, 0); 
 
-        float angle = Mathf.Atan2(dirNormalized.y, dirNormalized.x) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
-
-
     }
 
     void ApplyBallForce()
     {
-        if (whiteBall == null) return;
+        // currentPullDir is already normalized and pointing toward the shot target
+        Vector2 force = (Vector2)currentPullDir * currentPullDistance * forceMultiplier;
+        whiteBallRb.AddForce(force, ForceMode2D.Impulse);
 
-        Vector2 force = currentPullDir * currentPullDistance * 20f;
-
-        Rigidbody2D rb2d = whiteBall.GetComponent<Rigidbody2D>();
-        if (rb2d != null)
-        {
-            rb2d.AddForce(force, ForceMode2D.Impulse);
-        }
-        else
-        {
-            Rigidbody rb = whiteBall.GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                rb.AddForce(new Vector3(force.x, force.y, 0f), ForceMode.Impulse);
-            }
-        }
-
+        // Reset
         currentPullDistance = 0f;
-        currentPullDir = Vector3.zero;
+    }
+
+    private Vector3 GetMouseWorldPos()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = Mathf.Abs(Camera.main.transform.position.z);
+        return Camera.main.ScreenToWorldPoint(mousePos);
+    }
+
+    private void ToggleVisuals(bool show)
+    {
+        // This keeps the script alive but hides the cue and line
+        if(lr) lr.enabled = show;
+        // Assuming the cue has a SpriteRenderer or MeshRenderer
+        Renderer r = GetComponent<Renderer>();
+        if(r) r.enabled = show;
+        
+        // If your cue has children (the stick graphics), toggle them:
+        foreach (Transform child in transform) child.gameObject.SetActive(show);
     }
 
     public void DrawAimLine()
     {
-        if (lr == null) return;
+        if (lr == null || !lr.enabled) return;
 
-        Vector3 origin = (raycastOriginPoint != null) ? raycastOriginPoint.position : transform.position;
-        Vector3 direction = (whiteBall.position - origin).normalized;
+        Vector3 origin = whiteBall.position;
+        // Direction is where the stick is pointing (away from the stick toward the ball)
+        Vector3 direction = currentPullDir == Vector3.zero ? (whiteBall.position - transform.position).normalized : currentPullDir;
 
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, 2000f, collisionLayers);
+        RaycastHit2D hit = Physics2D.Raycast(origin, direction, 20f, collisionLayers);
+
+        lr.positionCount = 2;
+        lr.SetPosition(0, origin);
 
         if (hit.collider != null)
         {
-            lr.positionCount = 3; 
-            lr.SetPosition(0, origin);
-            lr.SetPosition(1, hit.point); 
-
-            Vector3 targetBallCenter = hit.collider.transform.position;
-            Vector3 trajectoryDir = (targetBallCenter - (Vector3)hit.point).normalized;
-            lr.SetPosition(2, (Vector3)hit.point + (trajectoryDir * 1200f)); 
+            lr.SetPosition(1, hit.point);
         }
         else
         {
-            lr.positionCount = 2;
-            lr.SetPosition(0, origin);
-            lr.SetPosition(1, origin + (direction * 2000f));
+            lr.SetPosition(1, origin + (direction * 20f));
         }
-
-        lr.startWidth = 25f; 
-        lr.endWidth = 25f;
-        lr.startColor = Color.white; 
-        lr.endColor = Color.white;
     }
 }
