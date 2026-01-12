@@ -118,10 +118,10 @@ public class rotateQue : MonoBehaviour
     private void ToggleVisuals(bool show)
     {
         // This keeps the script alive but hides the cue and line
-        if(lr) lr.enabled = show;
+        if (lr) lr.enabled = show;
         // Assuming the cue has a SpriteRenderer or MeshRenderer
         Renderer r = GetComponent<Renderer>();
-        if(r) r.enabled = show;
+        if (r) r.enabled = show;
         
         // If your cue has children (the stick graphics), toggle them:
         foreach (Transform child in transform) child.gameObject.SetActive(show);
@@ -133,7 +133,7 @@ public class rotateQue : MonoBehaviour
 
         Vector3 origin = whiteBall.position;
         // Direction is where the stick is pointing (away from the stick toward the ball)
-        Vector3 direction = currentPullDir == Vector3.zero ? (whiteBall.position - transform.position).normalized : currentPullDir;
+        Vector3 direction = currentPullDir.magnitude < 0.001f ? (whiteBall.position - transform.position).normalized : currentPullDir;
 
         RaycastHit2D hit = Physics2D.Raycast(origin, direction, 20f, collisionLayers);
 
