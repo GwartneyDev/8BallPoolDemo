@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.U2D.IK;
 
 public class rotateQue : MonoBehaviour
 {
@@ -25,50 +26,56 @@ public class rotateQue : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false;
+        Cursor.visible = true;
         lr = GetComponent<LineRenderer>();
     }
 
-    void Update()
+        void Update()
+{
+    if (whiteBall == null) return;
+
+    // 1. Check if the ball is moving
+    // If moving, we hide everything and stop all input logic
+    bool isBallMoving = whiteBall.GetComponent<Rigidbody2D>().linearVelocity.magnitude > 0.1f; 
+
+    if (isBallMoving)
     {
-
-
-        if (whiteBall == null) return;
-
-        bool isBallMoving = whiteBall.GetComponent<Rigidbody2D>().linearVelocity.magnitude > 0.1f; 
-
-        if (isBallMoving) 
-        {
-           
-            gameObject.SetActive(false); 
-            return;
-        }
-        else
-        {
-            gameObject.SetActive(true); 
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            isPulling = true;
-            initialMousePos = Input.mousePosition;
-            cueStartPos = transform.position; 
-        }
-
-        if (isPulling)
-        {
-            HandleSpringPull();
-        }
-        else
-        {  
-          
-             ApplyBallForce();
-           
-        }
-
-        RotateQueStick(); 
-        DrawAimLine();
+        // Hide cue and line while ball is in motion
+        GetComponent<SpriteRenderer>().enabled = false;
+        lr.enabled = false;
+        isPulling = false; // Reset pull state so it doesn't "stick"
+        return; // Exit early so no clicks are processed
     }
+    else 
+    {
+        // Show cue and line when ball is still
+        GetComponent<SpriteRenderer>().enabled = true;
+        lr.enabled = true;
+    }
+
+    // 2. Click Handling (Only runs if ball is NOT moving)
+    if (Input.GetMouseButtonDown(0))
+    {
+        isPulling = true;
+        initialMousePos = Input.mousePosition;
+        cueStartPos = transform.position;
+    }
+
+    // 3. State Management
+    if (isPulling)
+    {
+        HandleSpringPull();
+        // Keep visual feedback during the pull if you want, 
+        // or hide them here if you want it invisible DURING the drag.
+    }
+    else
+    {
+        RotateQueStick(); 
+    }
+
+    // 4. Draw the aim line
+    DrawAimLine();
+}
 
     private void HandleSpringPull()
     {
@@ -84,33 +91,45 @@ public class rotateQue : MonoBehaviour
         if (Input.GetMouseButtonUp(0))
         {
             isPulling = false;
-            //ApplyBallForce();
+            ApplyBallForce();
             transform.position = cueStartPos;
         }
     }
 
     void RotateQueStick()
     {
+       
+        // Convert mouse position to world position
         Vector3 mouseScreenPos = Input.mousePosition;
         mouseScreenPos.z = Mathf.Abs(Camera.main.transform.position.z); 
-
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
-        
+        mouseWorldPos.z = 0; 
+
+        // Get the vector from the ball to your mouse
         Vector3 fullDir = mouseWorldPos - whiteBall.position;
+        
+        // THE FIX: Get the actual distance (magnitude)
         float mouseDistance = fullDir.magnitude;
+
         if (mouseDistance < 0.1f) return;
 
-        Vector3 dirNormalized = fullDir.normalized;
-        float dynamicGap = Mathf.Clamp(mouseDistance, 0.5f, 1.5f); 
+        // Get the direction
+        Vector3 dirNormalized = fullDir / mouseDistance;
 
-        Vector3 targetPos = whiteBall.position + (dirNormalized * -dynamicGap);
-        transform.position = new Vector3(targetPos.x, targetPos.y, 0); 
+        // APPLY MAGNITUDE: Use the mouse distance to set the cue's gap
+        // Adjust 150 and 800 to fit your Scale 70 table
+        float dynamicGap = Mathf.Clamp(mouseDistance, 100, 200); 
 
+        transform.position = whiteBall.position + (dirNormalized * -dynamicGap);
+        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+
+        // ROTATION
         float angle = Mathf.Atan2(dirNormalized.y, dirNormalized.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
-
-    }
+        
+        DrawAimLine();
+}
 
     void ApplyBallForce()
     {
