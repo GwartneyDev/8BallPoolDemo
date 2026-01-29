@@ -1,6 +1,7 @@
-using Unity.VisualScripting;
+
+ 
 using UnityEngine;
-using UnityEngine.U2D.IK;
+ 
 
 public class rotateQue : MonoBehaviour
 {
@@ -24,8 +25,25 @@ public class rotateQue : MonoBehaviour
     // ERROR FIX: Variable name must match capitalization used in Update (isPulling)
     private bool isPulling = false; 
 
+    public Vector2 pushDir;
+
+
+    public float mouseDistance;
+Vector2 blackRayTipPos;
+    Vector2 ghostPos;
+    Vector2 slideDir;
+
+    [Header("References")]
+ 
+    public Transform tipCircle; // DRAG YOUR YELLOW CIRCLE SPRITE HERE
+
+    private Vector3 lastSphereCenter;
+    private float sphereRadius = 16f;
+    private bool shouldDrawSphere = false;
+
     void Start()
     {
+       
         Cursor.visible = true;
         lr = GetComponent<LineRenderer>();
     }
@@ -108,8 +126,8 @@ public class rotateQue : MonoBehaviour
         // Get the vector from the ball to your mouse
         Vector3 fullDir = mouseWorldPos - whiteBall.position;
         
-        // THE FIX: Get the actual distance (magnitude)
-        float mouseDistance = fullDir.magnitude;
+        // Get the actual length (magnitude)
+        mouseDistance = fullDir.magnitude;
 
         if (mouseDistance < 0.1f) return;
 
@@ -121,6 +139,7 @@ public class rotateQue : MonoBehaviour
         float dynamicGap = Mathf.Clamp(mouseDistance, 100, 200); 
 
         transform.position = whiteBall.position + (dirNormalized * -dynamicGap);
+
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 
         // ROTATION
@@ -155,35 +174,78 @@ public class rotateQue : MonoBehaviour
         currentPullDir = Vector3.zero;
     }
 
-    public void DrawAimLine()
+public void DrawAimLine()
+{
+    if (whiteBall == null || raycastOriginPoint == null) return;
+
+    Vector2 cueTip = raycastOriginPoint.position;
+    Vector2 whitePos = whiteBall.position;
+
+    // Direction from white ball forward (away from cue)
+    Vector2 aimDir = (whitePos - cueTip).normalized;
+
+    float ballRadius = 16f;
+    float castDistance = 1000f;
+
+    // Always draw cue → white ball
+    Debug.DrawLine(cueTip, ghostPos, Color.magenta, 0f, false);
+
+    // Always draw white ball forward direction
+    //Debug.DrawRay(whitePos, aimDir * castDistance, Color.yellow, 0f, false);
+   
+    // Start cast slightly in front of white ball
+    Vector2 castStart = whitePos + aimDir * ballRadius;
+
+    RaycastHit2D hit = Physics2D.CircleCast(
+        castStart,
+        ballRadius,
+        aimDir,
+        castDistance,
+        collisionLayers
+    );
+
+
+ 
+ 
+if (hit.collider != null)
+{
+    // hit.centroid is the exact center of the ghost ball when it "touches" the target
+   
+    // Debug.DrawRay(whitePos, aimDir * castDistance, Color.yellow, 0f, false);
+    
+    // If we hit a ball, store sphere data for OnDrawGizmos
+    if (hit.collider)
     {
-        if (lr == null) return;
+        lastSphereCenter = (Vector3)whitePos + (Vector3)aimDir * hit.distance;
+        shouldDrawSphere = true;
+        ghostPos = hit.point - hit.normal * ballRadius;
+        pushDir = hit.normal.normalized;
+        slideDir = new Vector2(-pushDir.y, pushDir.x);
 
-        Vector3 origin = (raycastOriginPoint != null) ? raycastOriginPoint.position : transform.position;
-        Vector3 direction = (whiteBall.position - origin).normalized;
+        blackRayTipPos = (Vector3)hit.point + (new Vector3(pushDir.x, pushDir.y, 0) * mouseDistance);
+        
+        Debug.DrawLine(whitePos, ghostPos, Color.green, 0f, false);
+        Debug.DrawRay(hit.point, pushDir * mouseDistance , Color.black, 0f, false);
+      
 
-        RaycastHit2D hit = Physics2D.Raycast(origin, direction, 2000f, collisionLayers);
+        if (tipCircle != null)
+            tipCircle.position = ghostPos;
+    }
+   
+    
+}
 
-        if (hit.collider != null)
+void OnDrawGizmos(){
+    // Draw the last sphere cast position
+        if (shouldDrawSphere)
         {
-            lr.positionCount = 3; 
-            lr.SetPosition(0, origin);
-            lr.SetPosition(1, hit.point); 
 
-            Vector3 targetBallCenter = hit.collider.transform.position;
-            Vector3 trajectoryDir = (targetBallCenter - (Vector3)hit.point).normalized;
-            lr.SetPosition(2, (Vector3)hit.point + (trajectoryDir * 1200f)); 
-        }
-        else
-        {
-            lr.positionCount = 2;
-            lr.SetPosition(0, origin);
-            lr.SetPosition(1, origin + (direction * 2000f));
+            Gizmos.color = Color.blue;
+            
+            Gizmos.DrawWireSphere(lastSphereCenter, sphereRadius);
+ 
+}
         }
 
-        lr.startWidth = 25f; 
-        lr.endWidth = 25f;
-        lr.startColor = Color.white; 
-        lr.endColor = Color.white;
     }
 }
